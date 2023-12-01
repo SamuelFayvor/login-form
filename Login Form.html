@@ -30,10 +30,45 @@
     </div>
 </section>
    <div class="register" >
-    <form>
        <a href="#"> <input class="but" type="button" id="button" value="REGISTER NOW"> </a>
-    </form>
     </div>
+    <section>
+        <form>
+            <fieldset class="fieldset1">
+                <legend>PERSONAL DATA:</legend>
+                    <label for="FName">First Name:</label>
+                    <input type="text" id="FName" name="FirstName" placeholder="First Name" required>
+                    <label for="LName">Last Name:</label>
+                    <input type="text" name="LastName" id="LN" placeholder="Last Name" required> <br> <br>
+                    <label for="Gender">Gender:</label>
+                    <select name="Gender" id="Gender">
+                        <optgroup label="Humans">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </optgroup>
+                        <optgroup label="Opposite">
+                            <option value="Homo">Homosexual</option>
+                            <option value="Animal">Animal</option>
+                        </optgroup>
+                            <option value="IDK">I Dont Know</option>
+                            <option value="PNTS">Prefer Not To Say</option>
+                    </select>
+                    <label for="Mail">Email:</label>
+                    <input type="email" name="Mail" id="Mail" placeholder="joe@gmail.com" required> <br> <br>
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="text" name="Mobile Number" id="mobile" placeholder="+2347012345678" required>
+                    <label for="DOB">Date of Birth:</label>
+                    <input type="date" name="DOB" id="DOB" required>
+            </fieldset> 
+            <fieldset class="fieldset1">
+                <legend>PROFILE:</legend>
+                <textarea name="Profile" id="Profile" cols="60" rows="3" maxlength="500" required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Educati</legend>
+            </fieldset>
+        </form>
+    </section>
 
 </body>
 </html>
